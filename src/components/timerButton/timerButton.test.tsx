@@ -17,4 +17,7 @@ describe("TimerButton", () => {
   it("should render a <div />", () => {
     expect(container.find("div").length).toBeGreaterThanOrEqual(1)
   })
+  it("should render a <button />", () => {
+    expect(container.find("button").length).toBeGreaterThanOrEqual(1)
+  })
 })

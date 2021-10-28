@@ -1,11 +1,12 @@
-.button-container {
-    flex: 1 1 auto;
-    text-align: center;
-    margin: 0px 10px;
-    border: var(--button-border);
-    font-size: var(--button-text-size);
-  }
-  
-  .button-container:hover {
-    cursor: pointer;
-  }
+.buton {
+  margin: 5px;
+  /* margin-left: 15px; */
+  font-size: 25px;
+  border-radius: 10px;
+  width: 100px;
+  height: 45px;
+}
+.btn{
+  /* margin-left: 140px; */
+  text-align: center;
+}
